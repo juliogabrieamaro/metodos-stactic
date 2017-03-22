@@ -10,8 +10,25 @@ namespace metodosEstatic
     {
         static void Main(string[] args)
         {
+            int elMayor;
+            int ElMediano;
+            string dato;
             Console.WriteLine("hola mundo c#");
-            Console.ReadLine();
+
+            elMayor= Comparadora.retornarMayor(10, 5);
+           
+            sello.color = ConsoleColor.Blue;
+            
+            sello.mensaje = "nuevo mensaje";
+            
+            dato= sello.imprimir();
+
+
+
+            sello.imprimirColor();
+
+           
+           
         }
     }
 }
