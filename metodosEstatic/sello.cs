@@ -39,7 +39,7 @@ namespace metodosEstatic
         }
         private static string armarMensaje()
         {
-            string dato = "";
+            string dato = "sadasd";
         
         }
     }
