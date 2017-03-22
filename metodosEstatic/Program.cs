@@ -10,7 +10,7 @@ namespace metodosEstatic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hola mundo");
+            Console.WriteLine("hola mundo c#");
             Console.ReadLine();
         }
     }
