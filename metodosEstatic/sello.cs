@@ -12,9 +12,11 @@ namespace metodosEstatic
         public static ConsoleColor color;
         
           public static string imprimir()
-        { 
-        
-        return mensaje;
+        {
+            string dato;
+            
+        dato= sello.armarMensaje();
+        return dato;
         
         }
 
@@ -37,10 +39,57 @@ namespace metodosEstatic
 
     
         }
+
         private static string armarMensaje()
         {
-            string dato = "sadasd";
+            string dato = "holasa";
+            string dato2;
+            int i;
+            int num=6;
+            int j;
+
+
+
+
+
+            for (i = 0; i < dato.Length; i++)
+            {
+                
+                    for (j = 0; j <dato.Length; j++)
+                {
+                    if (j == 0)
+                    {
+
+                           
+                            Console.WriteLine("********");
+                            dato2 = dato.Insert(0, "*");
+                            dato2 = dato.Insert(dato.Length, "*");
+                            Console.WriteLine("{0}", dato2);
+                      
+                    
+                     }
+                        
+                    
+                        
+                    }
+                    if (j == 0)
+                    {
+                        Console.WriteLine("********");
+                    }
+
+                
+                }
+            sello.borrar();
+            return dato;
+            
+            }
+           
+            
+
+            
         
         }
+  
+      
     }
-}
+

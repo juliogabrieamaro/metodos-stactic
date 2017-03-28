@@ -15,20 +15,20 @@ namespace metodosEstatic
             string dato;
             Console.WriteLine("hola mundo c#");
 
-            elMayor= Comparadora.retornarMayor(10, 5);
-           
+        /*    elMayor= Comparadora.retornarMayor(10, 5);
+          ElMediano= Comparadora.mostrarElDelMedio(4, 9, 5);
+            
+          Console.Write(ElMediano);
+            */
             sello.color = ConsoleColor.Blue;
             
             sello.mensaje = "nuevo mensaje";
+            dato = sello.imprimir();
+           sello.imprimirColor();
+           
             
-            dato= sello.imprimir();
-
-
-
-            sello.imprimirColor();
-
-           
-           
+            //Console.Write(dato);
+            Console.Read();
         }
     }
 }
